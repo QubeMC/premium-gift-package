@@ -1,0 +1,15 @@
+name: Premiun_Gift
+version: ${project.version}
+authors:
+  - Primus
+  - maxxie114
+main: com.qubemc.premium_gift.Main
+api-version: "1.13"
+commands:
+  packgift:
+    description: package your inventory into a gift and upload to gift menu
+    usage: "Usage: /packgift <expiration in hours> <permission group(level1, level2, level3, level4, level5)>"
+    permission: op
+  gifts:
+    description: open a menu to show a list of gift packages
+    usage: "Usage: /gifts"
